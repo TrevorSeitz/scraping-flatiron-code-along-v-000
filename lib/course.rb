@@ -6,4 +6,8 @@ class Course
 
   @@all = []
 
+  def all
+    @@all
+  end
+
 end
