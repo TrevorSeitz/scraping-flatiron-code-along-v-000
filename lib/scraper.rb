@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
+require 'pry'
 
 require_relative './course.rb'
 
@@ -10,7 +11,7 @@ class Scraper
   end
 
   def get_courses
-    
+
   end
 
   def make_courses
